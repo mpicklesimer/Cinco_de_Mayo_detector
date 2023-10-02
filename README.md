@@ -21,7 +21,9 @@ Testing: On most days of the year, this script will just tell you that it's not 
 <br><br />
 For example, if I wanted to test this script's ability to actually detect May 5th (i.e., Cinco de Mayo / Revenge of the 5th), I would use the following command line:
 <br><br />
-<i>sudo date --set="5 MAY 2023 17:00:00"</i> (Note: Set the time to whatever you like, so long as it is military time.)
+<i>sudo date --set="5 MAY 2023 17:00:00"</i>
+<br><br />
+(Note: Set the time to whatever you like, so long as it is military time.)
 <br><br />
 Additionally, to test this script's ability to detect May 4th (i.e., Star Wars Day), just use the same command line from above, but replace the 5 with a 4.
 
