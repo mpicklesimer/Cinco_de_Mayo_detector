@@ -19,13 +19,15 @@ Running: Run like you would any other BASH script in Linux. For example, while i
 <br><br />
 Testing: On most days of the year, this script will just tell you that it's not Cinco de Mayo. Not very impressive, right? So how do you know it will work on the appropriate holidays? Just temporarily change the date on your host machine and then run the script. To do that, you will need to run the date command with the --set option. (Also--because you will be changing such an integral variable, you will need sudo privileges.)
 <br><br />
-For example, if I wanted to test this script's ability to actually detect May 5th (i.e., Cinco de Mayo / Revenge of the 5th), I would use the following command line:
+For example, if I wanted to test this script's ability to actually detect May 5th (i.e., Cinco de Mayo / Revenge of the 5th), I would use the following command line to temporarily change the date to May 5th:
 <br><br />
 <i>sudo date --set="5 MAY 2023 17:00:00"</i>
 <br><br />
 (Note: Set the time to whatever you like, so long as it is military time.)
 <br><br />
 Additionally, to test this script's ability to detect May 4th (i.e., Star Wars Day), just use the same command line from above, but replace the 5 with a 4.
+<br><br />
+P.S. Don't forget to change your date and time back!
 
 <h2>Script Points of Interest:</h2>
 
